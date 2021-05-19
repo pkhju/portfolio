@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+html, body, iframe, div, h1, h2, h3, h4, h5, h6, p, blockquote, pre, address, del, em, strong, small, sub, sup, b, i, fieldset, form, legend, label, select, button, input, textarea, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, figcaption, footer, header, nav, section, audio, video, span, ul, li, ol, dl, dt, dd, a, img {
+	margin: 0;
+	padding: 0;
+}
+body, th, td, input, select, textarea, button, a {
+	font-family: "Malgun Gothic","맑은고딕", sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+	color: #333;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	font-size: 16px;
+}
+img {
+	vertical-align: top;
+	max-width: 100%;
+    font-size: 0;
+}
+ul, ol, li, dl {
+	list-style: none;
+}
+iframe {
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: top;
+}
+button {
+	border: 0;
+	outline: 0;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+.clear::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+div, header, nav, section, footer, aside, article {
+	box-sizing: border-box;
+}
