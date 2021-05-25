@@ -24,6 +24,17 @@
       </div>
     </div> <!-- .topbanner -->
     <header>
+      <div id="mobilenav-bar">
+        <h1 class="mobilelogo">
+          <img src="images/logo.png" alt="로고">
+        </h1>
+        <span class="hamburger-menu">
+          <img src="images/hamburgermenu.png" alt="모바일메뉴">
+        </span>
+        <span class="cart">
+          <img src="images/cart.png" alt="장바구니">
+        </span>
+      </div> <!-- .mobilenav-bar -->
       <div class="headertop">
         <div class="inner clear">
           <ul class="topsns">
@@ -128,7 +139,7 @@
               <li>
                 <div class="boximgpd">
                   <div class="imgmenu">
-                    <img src="images/contentcart.png" alt=""><img src="images/contentplus.png" alt="">
+                    <a href="#"><img src="images/contentcart.png" alt=""></a><a href="#"><img src="images/contentplus.png" alt=""></a>
                   </div>
                   <img src="images/nav-classic-tube.png" alt="카멕스 클래식 튜브">
                 </div> <!-- .boximgpd -->
@@ -140,7 +151,7 @@
               <li>
                 <div class="boximgpd">
                   <div class="imgmenu">
-                    <img src="images/contentcart.png" alt=""><img src="images/contentplus.png" alt="">
+                    <a href="#"><img src="images/contentcart.png" alt=""></a><a href="#"><img src="images/contentplus.png" alt=""></a>
                   </div>
                   <img src="images/nav-classic-stick.png" alt="카멕스 클래식 스틱">
                 </div> <!-- .boximgpd -->
@@ -152,7 +163,7 @@
               <li>
                 <div class="boximgpd">
                   <div class="imgmenu">
-                    <img src="images/contentcart.png" alt=""><img src="images/contentplus.png" alt="">
+                    <a href="#"><img src="images/contentcart.png" alt=""></a><a href="#"><img src="images/contentplus.png" alt=""></a>
                   </div>
                   <img src="images/nav-classic-jar.png" alt="카멕스 클래식 자">
                 </div> <!-- .boximgpd -->
@@ -164,7 +175,7 @@
               <li>
                 <div class="boximgpd">
                   <div class="imgmenu">
-                    <img src="images/contentcart.png" alt=""><img src="images/contentplus.png" alt="">
+                    <a href="#"><img src="images/contentcart.png" alt=""></a><a href="#"><img src="images/contentplus.png" alt=""></a>
                   </div>
                   <img src="images/nav-daily-care-strawberry-tube.png" alt="카멕스 데일리 딸기">
                 </div> <!-- .boximgpd -->
@@ -176,7 +187,7 @@
               <li>
                 <div class="boximgpd">
                   <div class="imgmenu">
-                    <img src="images/contentcart.png" alt=""><img src="images/contentplus.png" alt="">
+                    <a href="#"><img src="images/contentcart.png" alt=""></a><a href="#"><img src="images/contentplus.png" alt=""></a>
                   </div>
                   <img src="images/nav-daily-care-wintergreen-tube.png" alt="카멕스 데일리 윈터그린">
                 </div> <!-- .boximgpd -->
@@ -188,7 +199,7 @@
               <li>
                 <div class="boximgpd">
                   <div class="imgmenu">
-                    <img src="images/contentcart.png" alt=""><img src="images/contentplus.png" alt="">
+                    <a href="#"><img src="images/contentcart.png" alt=""></a><a href="#"><img src="images/contentplus.png" alt=""></a>
                   </div>
                   <img src="images/nav-daily-care-freshcherry-tube.png" alt="카멕스 데일리 체리">
                 </div> <!-- .boximgpd -->
@@ -205,7 +216,7 @@
           </div> <!-- .boxlistpd -->
         </section>
         <section class="oatbanner">
-          <div class="boxoatstick clear">
+          <div class="boxoatstick clear"> <!-- a태그로 싸야함 -->
             <img src="images/oatbanner.png" alt="">
             <img src="images/stickbanner.png" alt="">
           </div>
@@ -259,7 +270,50 @@
         </div> <!-- .inner -->
       </div> <!--. boxbtmlogo-->
     </footer>
-  </div> 
-    
+  </div> <!-- #wrap -->
+  <div id="mobile-container">
+    <div class="inner">
+    <button class="mbnavclose">X</button>
+      <ul class="mbtopnav clear">
+        <li><a href="#">로그인</a></li>
+        <li><a href="#">회원가입</a></li>
+        <li><a href="#">주문조회</a></li>
+      </ul> <!-- .mbtopnav -->
+      <ul class="mbmainnav">
+        <li><a href="#">카멕스 스토리</a>
+            <ul class="mbsubnav">
+              <li><a href="#">카르마랩</a></li>
+              <li><a href="#">자연 유래 성분</a></li>
+              <li><a href="#">카멕스 히스토리</a></li>
+            </ul>
+        </li>
+        <li><a href="#">제품 소개</a>
+          <ul class="mbsubnav">
+            <li><a href="#">클래식</a></li>
+            <li><a href="#">데일리</a></li>
+            <li><a href="#">컴포트 케어</a></li>
+            <li><a href="#">리미티드 에디션</a></li>
+          </ul>
+        </li>
+        <li><a href="#">매장 검색</a></li>
+        <li><a href="#">고객 지원</a>
+          <ul class="mbsubnav">
+            <li><a href="#">이벤트</a></li>
+            <li><a href="#">공지사항</a></li>
+            <li><a href="#">FAQS</a></li>
+          </ul>
+        </li>
+      </ul> <!-- .mbmainnav -->
+      <ul class="mblistsns">
+        <li><a href="#">트위터</a></li>
+        <li><a href="#">페이스북</a></li>
+        <li><a href="#">인스타그램</a></li>
+        <li><a href="#">핀터레스트</a></li>
+      </ul>  <!-- .mblistsns -->
+      <div class="mbnavlogo">
+        <img src="images/logo.png" alt="카멕스 로고">
+      </div>
+    </div> <!-- .inner -->
+  </div> <!-- #mobile-container -->
 </body>
 </html>
